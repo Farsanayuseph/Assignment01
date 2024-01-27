@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+}
+
+.carousel-inner{
+    height: 550px;
+    overflow: hidden;
+}

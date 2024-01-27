@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;700&display=swap');
+body {
+    margin: 0px;
+}
+
+form.nosubmit {
+    border: none;
+    padding: 0;
+}
+
+input.nosubmit {
+    width: 260px;
+    border: 1px solid #555;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+.nav-item>a:hover {
+    color: blue;
+}
+
+
+
+
+.banner {
+    height: 550px;
+    width: 100%;
+    margin-right: 50px;
+    /* background-image: url('./images/lulu-home-0223-main-banner.webp'); */
+    background-image: url('https://img.freepik.com/premium-photo/ancient-books-row-wooden-background_488220-1725.jpg?size=626&ext=jpg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding: auto;
+}
+
+.banner .container{
+    padding-top: 220px;
+}
+
+.content-heading{
+    color: white;
+}
+
+.content-heading h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:900;
+    font: size 300px;
+    text-align: justify;
+}
+
+.content-heading p{
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-weight: 300;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.content-heading btn{
+    color: white;
+    
+}
+
+.book-section .col-lg-4 h5{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    /* padding-left: 50px; */
+}
+
+.book-section .col-lg-4 p{
+    padding-top: 10px;
+    padding-left: 25px; 
+    padding-right: 25px;
+    text-align: justify;
+}
+
+
+
+.login > .container{
+    height: 200px;
+    
+}
+
+.login > .container > .row > .col-lg-12{
+    padding-top: 50px;
+    height: 200px;
+    background-image:url('./images/loginBgm.jpeg');
+    background-position: 100px;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size:x-large;
+    
+}
+.login > .container > .row > .col-lg-12 > .inner-div1{
+    color: white;
+}
+.login > .container > .row > .col-lg-12 > .inner-div2{
+    color: white;  
+}
+
+/* @media only screen and (max-width:600px){
+    .second-section{
+        height: 1700px;
+    }
+    .book-section{
+        height: 1700px;
+    }
+    
+}
+
+@media only screen and (min-width:601px) and (max-width: 1024px){
+    .second-section{
+        height: 1700px;
+    }
+    .book-section{
+        height: 1700px;
+    }
+
+    .second-section > .book-section > .container{
+        height: 1700px;
+    }
+} */
+
+/* @media screen and (max-width>1024px) {
+    .second-section{
+        height: 750px;
+    }
+    .book-section{
+        height: 650px;
+    }
+} */
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
